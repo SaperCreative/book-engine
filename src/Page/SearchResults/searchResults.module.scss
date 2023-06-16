@@ -1,0 +1,46 @@
+.topWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+    .logoWrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box {
+        width: 30%;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+.bottomWrapper {
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 8px;
+
+    .btn {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        border-radius: 16px;
+        background-color: #ddd;
+        color: #222;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all .23s ease-in;
+
+        &:hover {
+            box-shadow: 0px 4px 5px rgb(0, 0, 0);
+        }
+    }
+}

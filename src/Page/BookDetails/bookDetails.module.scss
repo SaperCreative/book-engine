@@ -1,0 +1,103 @@
+.topWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+
+    .detailsCard {
+        width: auto;
+        height: 100%;
+        padding: 30px 20px;
+
+        h2 {
+            font-size: 18px;
+            padding-bottom: 4px;
+        }
+
+        ul {
+            li:first-child {
+                padding-top: 0;
+                font-size: 14px;
+                transform: skew(-15deg);
+            }
+
+            li {
+                list-style: none;
+                padding: 8px 0;
+            }
+        }
+
+        p {
+            padding: 8px 0;
+            margin: 0;
+        }
+
+        .btns {
+            display: flex;
+            width: 100%;
+
+            .btn:first-child {
+                margin-right: 20px;
+            }
+
+            .btn {
+                margin-top: 20px;
+                background-color: #eee;
+                color: #000;
+                width: 145px;
+                height: 32px;
+                line-height: 32px;
+                text-align: center;
+                font-size: 16px;
+                border-radius: 4px;
+                font-weight: 600;
+                cursor: pointer;
+                transition: all .23s ease-in;
+
+                &:hover {
+                    box-shadow: 0px 4px 5px rgb(0, 0, 0);
+                }
+
+                a {
+                    text-decoration: none;
+                    color: #000;
+                }
+            }
+        }
+    }
+
+    .mainCard {
+        padding: 30px 20px;
+        width: 40%;
+
+        img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 3px 8px #000;
+        }
+    }
+}
+
+@media (max-width: 762px) {
+    .wrapper {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .mainCard,
+        .detailsCard {
+            width: 100%;
+        }
+    }
+}

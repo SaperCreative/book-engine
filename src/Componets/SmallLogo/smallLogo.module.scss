@@ -1,0 +1,24 @@
+.logoWrapper {
+    width: auto;
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        background-repeat: no-repeat;
+        background-size: 60px 60px;
+        background-image: url('data:image/svg+xml,%3C%3Fxml version=%221.0%22 encoding=%22utf-8%22%3F%3E%3C!-- Uploaded to: SVG Repo  www.svgrepo.com  Generator: SVG Repo Mixer Tools --%3E%3Csvg width=%22800px%22 height=%22800px%22 viewBox=%220 0 48 48%22 id=%22Layer_2%22 data-name=%22Layer 2%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:none%3Bstroke:%23FFFFFF%3Bstroke-linecap:round%3Bstroke-linejoin:round%3B%7D%3C/style%3E%3C/defs%3E%3Cpath class=%22cls-1%22 d=%22M12.6 13.09h7.29%22/%3E%3Cpath class=%22cls-1%22 d=%22M12.55 16.21h7.3%22/%3E%3Cpath class=%22cls-1%22 d=%22M12.55 19.28h7.3%22/%3E%3Cpath class=%22cls-1%22 d=%22M12.55 22.43h7.3%22/%3E%3Cpath class=%22cls-1%22 d=%22M8.67 9V34.08H19.79c1.79 0 4.29 1.75 4.29 1.75L24 10.35a5.51 5.51 0 0 0-3.85-1.58Z%22/%3E%3Cpath class=%22cls-1%22 d=%22M30.82 34.08H28.37c-1.79 0-4.29 1.75-4.29 1.75l.09-25.48A5.51 5.51 0 0 1 28 8.77l2.8 0%22/%3E%3Cpath class=%22cls-1%22 d=%22M33.89 8.86l5.6.09V34.08h-5.6%22/%3E%3Cpath class=%22cls-1%22 d=%22M33.89 36.62h7.7V10.28H40%22/%3E%3Cpath class=%22cls-1%22 d=%22M8.49 10.37H6.29V36.6H21.45a10.39 10.39 0 0 0 2.53.58 9.37 9.37 0 0 0 2.38-.56h4.46%22/%3E%3Cpath class=%22cls-1%22 d=%22M30.82 7.19v32.4l1.49-1.05 1.58 1V7.28Z%22/%3E%3C/svg%3E');
+    }
+}
+
+@media (max-width: 834px) {
+    .logoWrapper span {
+        display: none;
+    }
+}
